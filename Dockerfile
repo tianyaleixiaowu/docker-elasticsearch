@@ -3,4 +3,5 @@ MAINTAINER Jaeger <JaegerCode@gmail.com>
 ADD ik /usr/share/elasticsearch/plugins/ik
 USER root
 RUN chown elasticsearch:elasticsearch /usr/share/elasticsearch/plugins/ik
+RUN chown elasticsearch:elasticsearch /usr/share/elasticsearch
 USER elasticsearch
